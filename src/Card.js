@@ -4,7 +4,7 @@ class Card extends React.Component {
   render() {
     return(
       <div>
-        Card
+        <img src={this.props.image} alt={this.props.name} className='Card'/>
       </div>
     )
   }
